@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "kolletif";
+    src: url("../fonts/Kollektif.ttf");
+}
+@font-face {
+    font-family: "kolletif-bold";
+    src: url("../fonts/Kollektif-Bold.ttf");
+}
+@font-face {
+    font-family: "kollektif-italic";
+    src: url("../fonts/Kollektif-Italic.ttf");
+}
+@font-face {
+    font-family: "kolletif-bold-italic";
+    src: url("../fonts/Kollektif-BoldItalic.ttf");
+}
+*{
+    font-family: "kolletif";
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 200;
+}
