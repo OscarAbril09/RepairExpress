@@ -7,24 +7,52 @@
     <link rel="shortcut icon" href="./image/mobile.svg" type="image/x-icon">
     <link rel="stylesheet" href="./style A/formato.css">
     <link rel="stylesheet" href="./style A/style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <div class="container">
+        <div class="modal">
+            <div class="repairId">
+                <a href="#exit" class="exit"><img src="./image/exit.svg" alt="exit" width="25%"></a>
+                <div>
+                    <img src="./image/logoRepair.png" alt="logoRepair" width="60%">
+                    <p>Por favor ingresa tu Repair Express ID</p>
+                </div>
+                <div class="label">
+                    <label>Repair Express ID
+                        <input type="email" placeholder="usuario@repairex.com">
+                    </label>
+                    <label>contraseña
+                        <input type="password" placeholder="******************">
+                    </label>
+                </div>
+                
+                <div class="buttons">
+                    <a href="#otro">Ingresar</a><a href="#modal1">Registrarse</a>
+                </div>
+                <label class="cent">
+                    Tambien puedes utilizar
+                    <i class='bx bxl-google' ></i>
+                    <i class='bx bxl-facebook-circle' ></i>
+                    <i class='bx bxl-apple'></i>
+
+                </label>
+            </div>
+        </div>
         <div class="home">
             <div class="textHome w-50">
                 <div class="logo w-100">
-                    <img src="./image/logoRepair.png" alt="logoRepair">
+                    <img src="./image/logoRepair.png" alt="logoRepair" width="30%">
                 </div>
                 <h2>¿Se dañó la pantalla de tu iPhone? <br> No te preocupes, nosotros <br> 
                     nos encargamos de repararlo.</h2>
                     <div class="homeGrid">
-                        <p>Solicita ya tu reparación a domicilio por tecnicos especializados</p>
-                        <a href="#index">Reparar ya</a>
-                        <input type="checkbox" id="popup-toggle">
-                        <label for="popup-toggle" class="Pop">Revisar Servicio</label>
-                        <img src="./image/warranti.png" alt="warranti"><img src="./image/48hours.png" alt="horas">
-                        <div class="pop">
-                            <label for="popup-toggle" class="popUp"> este va ser el pop</label>
+                        <p><br> Solicita ya tu reparación a domicilio por tecnicos especializados</p>
+                        <a href="#index" class="button repair">Reparar ya</a>
+                        <a href="#modal" class="button bPop">Revisar Servicio</a>
+                        <div class="icons">
+                            <img src="./image/warranti.png" alt="warranti"><img src="./image/48hours.png" alt="horas">
                         </div>
                     </div> 
             </div>
@@ -32,6 +60,20 @@
                 <img src="./image/iPhoneTransparente.png" alt="phoneRoto" width="150%">
             </div>
         </div>
+        
     </div>
+    <!-- <script>
+        const popupButton = document.querySelector('.bPop.button');
+        const popup = document.getElementById('popup');
+        const closeButton = document.getElementById('exit');
+
+            popupButton.addEventListener('click', function () {
+                popup.style.display = 'block';
+            });
+
+            closeButton.addEventListener('click', function () {
+                popup.style.display = 'none';
+            });
+    </script> -->
 </body>
 </html>

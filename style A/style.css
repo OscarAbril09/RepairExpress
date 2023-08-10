@@ -1,28 +1,122 @@
 *{
     margin: 0;
-    padding: 0;
+    padding:0;
 }
+body {
+    padding: 0 20px 0 30px;
+    overflow-x: hidden;
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    margin-left: -30px;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+    .repairId{
+        position: relative;
+        top: 15%;
+        left: 35%;
+        width: 35%;
+        height: 61%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: aliceblue;
+        border-radius: 2.1em;
+    }
+        .exit{
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 4% -5.5% 0 0; 
+        }
+        .repairId div{
+            text-align: center;
+        }
+        .repairId p{
+            font-size: 1.2vw;
+        }
+        .label{
+            width: 72%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            
+        }
+        .repairId .label label{
+            color: grey;
+            display: flex;
+            flex-direction: column;
+            text-align: start;
+            font-size: 1vw;
+        }
+        .repairId .label input{
+            height: 40px;
+            border-radius: 2em;
+            padding-left: 10px;
+            font-size: 1vw;
+        }
 .container{
     display: flex;
     flex-direction: column;
 }  
 .home{
     display: flex;
-    align-items: center;
-
 }
     .home .textHome{
         width: 50%;
         display: flex;
         flex-direction: column;
+        margin-top: 2.1%;
+        gap: 25px;
     }
-    .home .textHome .logo{
-        margin-left: 20%;
-    }
-    .home .imgHome{
-    }
+        .home .textHome h2{
+            font-size: 3.1vw;
+        }
+        .homeGrid{
+            display: grid;
+            grid-template-columns: 15% repeat(3, 1fr);
+            grid-template-rows: auto;
+            gap: 25px;
+            grid-template-areas: 
+            "header header header header"
+            ". main sidebar  ."
+            ". footer footer .";
+        }
+            .home .homeGrid p{
+                font-size: 1.65vw;
+                grid-area: header;
+            }
+            .home .homeGrid .button{
+                width: 12vw;
+                font-size: 1.4vw;
+                text-align: center;
+                color: white;
+                background-color: #0554F2;
+                padding: 4% 2.5%;
+                border-radius: 2em;
+                margin-top: 1%;
+            }
+            .home .homeGrid .repair{
+                text-decoration: none;
+                justify-self: end;
+                grid-area: main;
+            }
+            .home .homeGrid .bPop {
+                cursor: pointer;
+                grid-area: sidebar;
+                border: none;
+                text-decoration: none ;
+            }
+            .home .homeGrid .icons{
+                grid-area: footer;
+                justify-self: center;
+            }
             .home .imgHome img{
-                margin-left: -30%;
+                margin-left: -45%;
             }
 .w-100{
     width: 100%;
