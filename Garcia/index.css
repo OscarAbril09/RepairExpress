@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 20%;
+}
+nav{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.logo{
+    width: 140px;
+}
+.pagar{
+    width: 100%;
+    text-align: center;
+    height: 130px;
+    margin-top: 30px;
+}
+.papaDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    align-content: center;
+    margin: 30px; 
+}
+/*-----------------------------------------------------------------------------------------------*/
+.div1 {
+    display: flex ;
+    flex-direction: column;
+    width: 30%; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.div1 h3{
+    margin: 5px;
+    justify-content: center;
+}
+.div1 p{
+    text-align: center;
+}
+.inputss1{
+    display: flex;
+}
+#name{
+    border: 1px solid #8d8686;
+    height: 30px;
+    width:200px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#name2{
+    border: 1px solid #8d8686;
+    height: 30px;
+    width:200px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.inputss2{
+    display: flex;
+}
+#codigo{
+    border: 1px solid #8d8686;
+    height: 30px;
+    width:200px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#num{
+    border: 1px solid #8d8686;
+    height: 30px;
+    width:200px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.inputss3{
+    display: flex;
+    justify-content: center;
+}
+#email{
+    border: 1px solid #8d8686;
+    height: 30px;
+    width:200px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    width: 32%; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.infoDiv2 h3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div2 h3{
+    margin: 10px;
+}
+.visa{
+    background-color: blue;
+    border: 5px solid blue;
+    border-radius: 20px;
+}
+.inputts2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    margin-top: -15%;
+    
+}
+    .inputts2 label{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .inputts2 input{
+        border: gray 1px solid;
+        border-radius: 2.1em;
+        height: 35px;
+    }
+    .tarjeta{
+        width: 100%;
+    }
+        .tarjeta input{
+            width: 95%;
+        }
+    .cvv{
+        width: 20%;
+    }
+    .fecha{
+        
+        width: 50%;
+    }
+    .inputts2 .d-flex{
+        display: flex;
+    }
+/*-----------------------------------------------------------------------------------------------*/
+
+.div3{
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.div3 h3{
+    margin-top: 30px; 
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.conta1{
+    display: flex;
+    flex-direction: column;
+}
+.conta1 p{
+    margin-left: 10px;
+
+}
+.conta1 h4{
+    margin: 8px;
+    font-size: 15px;
+}
+.conta2{
+    display: flex;
+    flex-direction: row;
+}
+.conta2 .iva{
+    margin-left: 10px;
+    margin: 10px;
+}
+.conta2 .p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin: 10px;
+}
+.conta3{
+    display: flex;
+    flex-direction: column;
+}
+.conta3 h3{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+
+}
+.conta3 p{
+    margin-left: 10px;
+    text-align: center;
+}
+.conta3 button{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 20px;
+    height: 65px;
+    font-size: 20px;
+    width: 200px;
+    background-color: rgb(0, 89, 255);
+    border: 2px solid rgb(0, 89, 255);
+    color: #fff;
+}
+.bottom
+{
+    display: flex;
+    justify-content: center;
+}
+.infoDiv1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
