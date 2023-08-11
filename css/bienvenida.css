@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    border-bottom: 0.1vw solid #000;
+    margin: 2vw 12vw;
+    align-items: center;
+}
+.link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    margin-right: 13.5vw;
+}
+
+.link-img {
+    width: 10vw;
+    margin-right: 11vw;
+}
+
+.link-text {
+    font-size: 1.5vw;
+}
+
+.pedro {
+    position: relative;
+    left: 92.7vw;
+    bottom: 7.7vw;
+    width: 5.5vw;
+}
+
+
+.img1{ 
+    margin-top: 0;
+    text-align: center;
+}
+.imagen1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.texto1 h2{
+    margin-bottom: 40px;
+}
+.card-1{
+    margin-top: 3%;
+    width: 70%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 1%;
+    
+}
+.card2{
+    margin-left: 10%;
+    
+    
+}
+.texto{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+.texto h4{
+    margin-bottom: 30px;
+}
+/* .button1{
+    background-color: blue;
+    width: 50%;
+    
+    margin: auto;
+} */
+.card2 button{
+    margin-top: 20px;
+    border: none;
+    padding: 5px 40px ;
+    font-size: 30px;
+    border-radius: 2.1em;
+    background-color: #2405F2;
+    color: white;
+    height: 60px;
+    width: 50%;
+}
+.papa{
+    display: flex;
+    margin-left: 7.2%;
+}
+.frase{
+    margin-top: 0px;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.status{
+    display: flex;
+    gap: 31%;
+    margin-bottom: 30px;
+}
+.status button{
+    display: flex;
+    text-align: end;
+    border: none;
+    background-color: red;
+    margin-top: 5px;
+    border-radius: 2.1em;
+    width: 80px;
+    color: white;
+    height: 25px;
+    
+}
+.status .btn{
+    text-align: center;
+    justify-content: center;
+}
+
+.celular{
+    display: flex;
+    gap: 3%;
+}
+.map h3{
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+.tecnico{
+    margin-top: 20px;
+}
+.tecnico .texti{
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.botonbajo{
+    margin-left: 62%;
+    margin-top: 3%;
+}
+.telefono{
+    margin-left: 150px;
+    font-size: 35px;
+}
+/* .botonbajo .botoncin button{
+    border: none;
+    padding: 5px 40px ;
+    font-size: 30px;
+    border-radius: 2.1em;
+    background-color: #2405F2;
+
+} */
+/* .botonbajo{
+    background-color: #2405F2;
+} */
+/* .botoncin{
+    width: 100px;
+    background-color: #2405F2;
+} */
+.botoncin button{
+    border-radius: 2.1em;
+    width: 120px;
+    background-color: #2405F2;
+    color: white;
+    border: none;
+    height: 35px;
+}
