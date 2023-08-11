@@ -8,7 +8,40 @@
     text-decoration: none;
 }
 
+
+header {
+    display: flex;
+    border-bottom: 0.1vw solid #000;
+    margin: 2vw 12vw;
+    align-items: center;
+}
+.link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5vw;
+    margin-left: 10vw;
+    margin-right: 13.5vw;
+}
+
+.link-img {
+    width: 10vw;
+    margin-right: 11vw;
+}
+
+.link-text {
+    font-size: 1.5vw;
+}
+
+.pedro {
+    position: relative;
+    left: 92.7vw;
+    bottom: 7.7vw;
+    width: 5.5vw;
+}
+
+
 .img1{ 
+    margin-top: 0;
     text-align: center;
 }
 .imagen1{
